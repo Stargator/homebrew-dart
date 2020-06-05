@@ -3,6 +3,7 @@ class DartBeta < Formula
   homepage "https://dart.dev"
 
   conflicts_with "dart", :because => "dart ships the same binaries"
+  conflicts_with "dart-dev", :because => "dart-dev ships the same binaries"
 
   version "2.9.0-14.1.beta"
   if OS.mac?

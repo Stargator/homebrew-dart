@@ -25,13 +25,20 @@ brew install dart
 Tip: Once installed, homebrew will print the path to the Dart SDK. Use this path to configure Dart support
 in your IDE (like WebStorm).
 
-## Dev Releases
+### Beta Releases
 
-To install dev channel releases, instead of the stable ones, add a `--head`
-flag after the brew commands:
+To install beta channel releases, instead of the stable ones, install the dart-beta formula:
 
 ```shell
-brew install dart --head
+brew install dart-beta
+```
+
+### Dev Releases
+
+To install dev channel releases, instead of the stable ones, install the dart-dev formula:
+
+```shell
+brew install dart-dev
 ```
 
 ## Updating
